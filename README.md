@@ -29,4 +29,6 @@ Destroy a cluster
 <h1>Usage</h1>
 From root dir navigate to dir <b>client</b>. Run <b>producer.py</b> to start producing the messages. When prompted enter number of dummy messages that you want to be generated.
 
-From root dir navigate to <b>fastapi/data</b> dir, where FastAPI is writing data from producer to <b>data.json</b> file on minute level.
+From root dir navigate to <b>fastapi/data</b> dir, where you can find the <b>data.json</b> file. FastAPI is collecting messages from producer and writing it to the <b>data.json</b> file on minute level.
+
+Happy developing :)
