@@ -3,6 +3,7 @@ import asyncio
 import json
 import os
 from random import randint
+import time
 
 
 # env variables
@@ -34,6 +35,7 @@ async def send_one():
             print(f'Sending message with value: {value}')
             value_json = json.dumps(value).encode('utf-8')
             await producer.send_and_wait(KAFKA_TOPIC, value_json)
+            time.sleep(1)
     finally:
         # wait for all pending messages to be delivered or expire.
         await producer.stop()
