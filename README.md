@@ -18,7 +18,6 @@ Start a cluster
 
 - `cd kafka-fastapi\fastapi`
 - `docker-compose up`
-- `docker-compose up -d` (or if you don't want to see logging in terminal)
 
 Destroy a cluster
 
