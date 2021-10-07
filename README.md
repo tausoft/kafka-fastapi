@@ -16,7 +16,7 @@ Navigate to dir with terminal and clone the git
 Start a cluster
 
 
-- `cd fastapi`
+- `cd kafka-fastapi\fastapi`
 - `docker-compose up -d or docker-compose up`
 
 Destroy a cluster
