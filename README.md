@@ -22,7 +22,7 @@ Start a cluster
 Destroy a cluster
 
 
-- `docker-compose stop`
+- `docker-compose down`
 
 
 
